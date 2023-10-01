@@ -1,0 +1,82 @@
+div.container.appointments {
+    max-width: 800px;
+}
+
+h2.appointment-head {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+div.table-responsive {
+    border-radius: .5rem;
+}
+
+td.table-data {
+    font-size: 1.05rem;
+}
+
+span.card-text-head {
+    font-weight: 700;
+}
+
+span.card-text-date {
+    font-size: 2rem;
+}
+
+/* ---------------------------------------------------------------- */
+
+#home {
+    height: 100vh;
+    background-image: linear-gradient(180deg, var(--bs-secondary-bg), var(--bs-body-bg));
+}
+
+
+a.navbar-brand {
+    font-size: 2.5rem;
+}
+
+a.nav-item-nav {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: .5rem;
+    margin-left: 3rem;
+}
+
+a.nav-item-nav:hover {
+    color: var(--mainc);
+}
+
+h1.head-caption {
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+p.head-caption-sub {
+    font-weight: 500;
+}
+
+button.abc-button-home {
+    background-color: var(--mainhc);
+    border: 1px solid var(--mainhc);
+    color: #fff;
+}
+
+button.abc-button-home:hover {
+    background-color: var(--mainhc2);
+    border: 1px solid var(--mainhc2);
+    color: #fff;
+}
+
+div.cover-head {
+    position: relative;
+
+}
+
+div.content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: left;
+    margin-left: 50px;
+}

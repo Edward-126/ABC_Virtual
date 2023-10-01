@@ -1,0 +1,188 @@
+/* ---------------------------------------------------------------- */
+
+#home {
+    min-height: 100vh;
+    background-image:
+        linear-gradient(to right,
+            rgb(255, 255, 255),
+            rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0)), url(./IMG/Pulse2.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.head-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-shadow: 0 .07rem .1rem rgba(0, 0, 0, .5);
+}
+
+a.navbar-brand {
+    font-size: 2.5rem;
+}
+
+a.nav-item-nav {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: .5rem;
+    margin-left: 2rem;
+}
+
+a.nav-item-nav:hover {
+    color: var(--mainhc);
+    /* text-shadow: 0 .07rem .1rem rgba(0, 0, 0, .5); */
+}
+
+h1.head-caption {
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+p.head-caption-sub {
+    font-weight: 500;
+}
+
+button.abc-button-home {
+    background-color: var(--mainhc);
+    border: 1px solid var(--mainhc);
+    color: #fff;
+    text-shadow: 0 .07rem .1rem rgba(0, 0, 0, .5);
+}
+
+button.abc-button-home:hover {
+    background-color: var(--mainhc2);
+    border: 1px solid var(--mainhc2);
+    color: #fff;
+}
+
+div.cover-head {
+    position: relative;
+    height: 100vh;
+}
+
+div.content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: left;
+    margin-left: 50px;
+    /* Adjust this value as needed */
+}
+
+/* ---------------------------------------------------------------- */
+
+#services {
+    height: 100vh;
+}
+
+.carousel {
+    margin-bottom: 4rem;
+}
+
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+.carousel-item-1 {
+    position: relative;
+    background-image: url(./IMG/CARAUSEL/eric-rothermel-FoKO4DpXamQ-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.carousel-item-1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.carousel-item-2 {
+    position: relative;
+    background-image: url(./IMG/CARAUSEL/hope-house-press-leather-diary-studio-PJzc7LOt2Ig-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.carousel-item-2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.carousel-caption {
+    z-index: 1;
+    text-shadow: 0 0.1rem .1rem rgba(0, 0, 0, .5);
+}
+
+h1.services-head {
+    text-align: center;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    text-shadow: 0 .07rem .1rem rgba(0, 0, 0, .5);
+}
+
+/* ---------------------------------------------------------------- */
+
+h1.about-head {
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    text-shadow: 0 .07rem .1rem rgba(0, 0, 0, .5);
+}
+
+p.about-body {
+    text-align: justify;
+}
+
+/* ---------------------------------------------------------------- */
+
+h1.text-center {
+    text-align: center;
+    padding-top: 2rem;
+    font-weight: 700;
+}
+
+div.container.testamonial-slider {
+    margin-bottom: 2rem;
+}
+
+span.stars {
+    font-size: 1.5rem;
+}
+
+div.testo-card {
+    background-color: var(--mainc2);
+    height: fit-content;
+    box-shadow: 0 1rem .5rem rgba(0, 0, 0, .5);
+}
+
+.testo-head {
+    text-shadow: 0 .07rem .1rem rgba(0, 0, 0, .5);
+}
+
+.testo-img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+}
+
+/* ---------------------------------------------------------------- */
+
+#footer {
+    height: auto;
+}

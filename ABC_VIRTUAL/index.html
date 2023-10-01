@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <!---------------------------------------------------------------->
+
+    <link rel="stylesheet" href="./Frameworks/Bootstrap-5.3.1/bootstrap-5.3.1-dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./base.css">
+
+    <script src="./Frameworks/Bootstrap-5.3.1/bootstrap-5.3.1-dist/js/bootstrap.min.js" defer></script>
+
+    <!---------------------------------------------------------------->
+
+</head>
+
+<body>
+
+    <div id="home">
+
+        <div class="container cover-head">
+            <nav class="navbar navbar-expand-lg bg-body-transparent home-cont">
+                <div class="container-fluid">
+                    <a class="navbar-brand fw-bold" href="#">ABC™</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active nav-item-nav" aria-current="page" href="#">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-item-nav" href="#services">SERVICES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-item-nav" href="#about">ABOUT</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav d-flex">
+                            <li class="nav-item">
+                                <a class="nav-link nav-item-nav" href="login.php">LOGIN</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container head-content">
+                <h1 class="display-2 fw-bold text-body-emphasis">Empowering <span class="main-c">H</span>ealth<br><span
+                        class="main-c">H</span>ealing Lives</h1>
+                <p class="fs-5 text-body-secondary">Your Journey to Wellness Begins Here </p>
+
+                <a href="#services2"><button class="btn btn-primary abc-button-home">SEE MORE</button></a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-------------------------------- Services -------------------------------->
+
+    <div id="services">
+
+        <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="true">
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+            </div>
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item carousel-item-1 active">
+                    <img class="bd-placeholder-img-lg img-fluid mx-auto carousel-image" width="100%" src="">
+                    <div class="container carousel-item-inside">
+                        <div class="carousel-caption text-start">
+                            <h1>Appointments Made Easy</h1>
+                            <p class="opacity-100">Take the first step towards better health by scheduling your
+                                appointment with our experienced medical professionals. Book
+                                your appointment now for convenient
+                                access to top-notch healthcare services.
+                            </p>
+                            <a class="btn btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#"><button
+                                    class="btn btn-primary abc-button-home">Make An Appointment</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item carousel-item-2">
+                    <img class="bd-placeholder-img-lg img-fluid mx-auto carousel-image" width="100%" src="">
+                    <rect width="100%" height="100%" fill="var(--mainc)" />
+                    <div class="container carousel-item-inside">
+                        <div class="carousel-caption text-end">
+                            <h1 class="carousel-caption-head">Take a Look At Your Appointments</h1>
+                            <p>Stay organized and manage your healthcare effortlessly. View, reschedule, or cancel
+                                your upcoming appointments online,
+                                ensuring you're always in control of your medical schedule.</p>
+                            <a class="btn btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#"><button
+                                    class="btn btn-primary abc-button-home">See Your Appointments</button></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+        </div>
+
+        <!---------------------------------------------------------------->
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Account Permissions Required</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Please Log-In to Continue
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!---------------------------------------------------------------->
+
+    </div>
+
+    <div id="services2">
+
+        <h1 class="services-head"> OUR <span class="main-c">S</span>ERVICES </h1><br>
+
+        <div class="container">
+
+            <div class="row featurette">
+
+                <div class="col-md-7">
+                    <h2 class="featurette-heading fw-normal lh-1">Medical Specialties. <span
+                            class="text-body-secondary">Restoring Strength, Embracing Health.</span></h2>
+                    <p class="lead">Experience specialized care from our team of doctors in various medical fields,
+                        ranging from heart health to
+                        neurological disorders. Our specialists utilize advanced techniques to diagnose
+                        and
+                        treat complex conditions.</p>
+                </div>
+
+                <div class="col-md-5">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                        height="500" src="./IMG/SLIDER/accuray-5VkNa1LrS8A-unsplash.jpg" alt="">
+                </div>
+
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading fw-normal lh-1">Emergency Care Services. <span
+                            class="text-body-secondary">Swift Response, Exceptional Care.</span></h2>
+                    <p class="lead">Our round-the-clock emergency room offers immediate medical attention for
+                        critical
+                        cases, including trauma and urgent
+                        medical conditions. Our skilled team of healthcare professionals is equipped to
+                        handle emergencies with speed and
+                        expertise.
+                    </p>
+                </div>
+
+                <div class="col-md-5 order-md-1">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                        height="500" src="./IMG/SLIDER/jake-espedido-ty9Dyq24T7I-unsplash.jpg" alt="">
+                </div>
+
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading fw-normal lh-1">Surgical Services. <span
+                            class="text-body-secondary">Advancing Care with Surgical Expertise</span></h2>
+                    <p class="lead">Our state-of-the-art surgical facilities provide a range of surgical options,
+                        from
+                        traditional to minimally invasive and
+                        robotic-assisted procedures. Our surgeons are dedicated to ensuring your comfort
+                        and
+                        safety throughout the surgical
+                        journey.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                        height="500" src="./IMG/SLIDER/national-cancer-institute-z8ofh6Zkn4k-unsplash.jpg" alt="">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading fw-normal lh-1">Diagnstic Services. <span
+                            class="text-body-secondary">Precision Through Advanced Imaging.</span></h2>
+                    <p class="lead">Get accurate insights into your health with our advanced diagnostic services.
+                        Our
+                        cutting-edge technology in radiology
+                        and laboratory services aids in identifying health issues and guiding treatment
+                        plans effectively.</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                        height="500" src="./IMG/SLIDER/national-cancer-institute-pCqzMe04s8g-unsplash.jpg" alt="">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+
+        </div>
+
+    </div>
+
+    <!-------------------------------- Services -------------------------------->
+
+    <!-------------------------------- About -------------------------------->
+
+    <div id="about">
+
+        <div class="container about-heading-1 fw-normal">
+            <h1 class="text-center about-head">ABC HOSPITALS<span class="main-c">™</span></h1>
+
+            <p class="text-xl-start lead about-body">
+
+                Welcome to ABC™ Hospital, a proud member of the distinguished Oasis Group. As a premier institution in
+                the realm of
+                healthcare, ABC™ is dedicated to merging cutting-edge technology with compassionate healthcare,
+                establishing itself as a
+                beacon of excellence in the global healthcare landscape. <br><br>
+
+                ABC™, embodying our commitment to "Advancing Better Care," signifies our unwavering dedication to
+                providing top-notch
+                medical services that prioritize the well-being of every individual under our care. Anchored by the
+                Oasis Group, a
+                recognized leader in technology and healthcare on a global scale, ABC™ Hospital stands as a testament to
+                the seamless
+                fusion of innovation and patient-centric healing. <br><br>
+
+                Our team of diverse medical professionals, specialists, and support staff all share a common goal: to
+                deliver
+                comprehensive and personalized medical solutions that empower patients to lead healthier lives. At ABC™,
+                we believe that
+                true healing encompasses not only medical treatment but also emotional support, patient education, and
+                community
+                engagement. <br><br>
+
+                With an unyielding commitment to offering evidence-based medical care for patients of all ages, ABC™
+                Hospital has become
+                a beacon of trust for those seeking the highest standards of healthcare. Through a blend of pioneering
+                technology,
+                expertise, and compassion, we aim to redefine healthcare excellence and solidify our place as a
+                preferred destination
+                for comprehensive medical services. <br><br>
+
+                We invite you to join us on this journey toward health and well-being. Discover the ABC™ difference
+                today.
+
+            </p>
+        </div>
+
+    </div>
+
+    <!-------------------------------- About -------------------------------->
+
+    <!-------------------------------- Testamonial -------------------------------->
+
+    <div id="testamonial">
+
+        <h1 class="text-center testo-head">VOICES OF <span class="main-c">T</span>RUST</h1>
+        <p class="fw-medium text-center">What People Are Saying About ABC Hospitals</p>
+
+        <div class="container testamonial-slider">
+            <div id="carouselExample" class="carousel slide" data-bs-ride="true" data-bs-theme="dark">
+
+                <div class="carousel-inner">
+                    <div class="carousel-item carousel-item-testo active">
+
+                        <div class="row justify-content-center">
+                            <div class="card testo-card col-8">
+                                <div class="card-body text-center">
+                                    <div class="testo-content">
+
+                                        <img class="bd-placeholder-img rounded-circle testo-img" width="140"
+                                            height="140"
+                                            src="./IMG/TESTAMONIAL/matheus-ferrero-W7b3eDUb_2I-unsplash.jpg" alt="">
+
+                                        <h2 class="fw-normal">Sarah Johnson</h2>
+                                        <h4 class="fw-light">Patient</h4>
+                                        <p>" I can't thank ABC Hospitals enough for the exceptional care they provided
+                                            during my recent surgery. The skilled medical
+                                            team, state-of-the-art facilities, and compassionate support staff made me
+                                            feel at ease throughout the entire process.
+                                            ABC Hospitals truly lives up to their reputation for excellence. " <br><span
+                                                class="stars">★★★★★</span></p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item carousel-item-testo">
+
+                        <div class="row justify-content-center">
+                            <div class="card testo-card col-8 ">
+                                <div class="card-body text-center">
+                                    <div class="testo-content">
+
+                                        <img class="bd-placeholder-img rounded-circle testo-img" width="140"
+                                            height="140" role="img" aria-label="Placeholder"
+                                            preserveAspectRatio="xMidYMid slice" focusable="false"
+                                            src="./IMG/TESTAMONIAL/christian-buehner-DItYlc26zVI-unsplash.jpg" alt="">
+
+                                        <h2 class="fw-normal">Michael Hernandez</h2>
+                                        <h4 class="fw-light">Family Member</h4>
+                                        <p>" When my father was admitted to ABC Hospitals for critical care, I witnessed
+                                            firsthand the dedication of their medical
+                                            professionals. The doctors and nurses worked tirelessly to ensure my
+                                            father's comfort and recovery. Their commitment to
+                                            patient well-being reassured our family during a challenging time.
+                                            "<br><span class="stars">★★★★★</span></p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item carousel-item-testo">
+
+                        <div class="row justify-content-center">
+                            <div class="card testo-card col-8">
+                                <div class="card-body text-center">
+                                    <div class="testo-content">
+
+                                        <img class="bd-placeholder-img rounded-circle testo-img" width="140"
+                                            height="140" role="img" aria-label="Placeholder"
+                                            preserveAspectRatio="xMidYMid slice" focusable="false"
+                                            src="./IMG/TESTAMONIAL/usman-yousaf-pTrhfmj2jDA-unsplash.jpg" alt="">
+
+                                        <h2 class="fw-normal">Dr. Henry Watson</h2>
+                                        <h4 class="fw-light">Doctor</h4>
+                                        <p>" As a practicing physician at ABC Hospitals, I've had the privilege to work
+                                            in an environment that values innovation and
+                                            patient-centered care. The hospital's emphasis on advanced medical
+                                            technology, coupled with a collaborative approach
+                                            among medical teams, fosters an atmosphere where doctors can provide the
+                                            best possible outcomes for their patients. "<br><span
+                                                class="stars">★★★★★</span></p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item carousel-item-testo">
+
+                        <div class="row justify-content-center">
+                            <div class="card testo-card col-8">
+                                <div class="card-body text-center">
+                                    <div class="testo-content">
+
+                                        <img class="bd-placeholder-img rounded-circle testo-img" width="140"
+                                            height="140" role="img" aria-label="Placeholder"
+                                            preserveAspectRatio="xMidYMid slice" focusable="false"
+                                            src="./IMG/TESTAMONIAL/marc-kleen-Iskck0kl210-unsplash.jpg" alt="">
+
+                                        <h2 class="fw-normal">David Patel</h2>
+                                        <h4 class="fw-light">Community Member</h4>
+                                        <p>" ABC Hospitals isn't just a healthcare facility; it's a pillar of our
+                                            community. From regular health check-ups to
+                                            emergency services, ABC Hospitals has been a reliable partner in our
+                                            family's healthcare journey. Their commitment to
+                                            the community's well-being is evident in the quality of care they
+                                            consistently deliver. "<br><span class="stars">★★★★★</span></p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-------------------------------- Testamonial -------------------------------->
+
+    <!-------------------------------- Footer -------------------------------->
+
+    <div id="footer">
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+
+                <p class="col-md-4 mb-0 text-body-secondary">&copy; ABC™ - Made by
+                    <a href="https://github.com/Thili-126"><span>T</span>hilina R</a> - 2023
+                </p>
+
+                <a href="/"
+                    class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32">
+                        <use xlink:href="#bootstrap" />
+                    </svg>
+                </a>
+
+                <ul class="nav col-md-4 justify-content-end">
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+                    <li class="nav-item"><a href="#services1" class="nav-link px-2 text-body-secondary">Services</a>
+                    </li>
+                    <li class="nav-item"><a href="#about" class="nav-link px-2 text-body-secondary">About</a></li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+
+    <!-------------------------------- Footer -------------------------------->
+
+</body>
+
+</html>
